@@ -11,34 +11,24 @@ from typing import Dict, List
 from googleapiclient.discovery import build
 from crewai import Agent, Crew, LLM, Process, Task
 
-
-# ---------------------------------------------------------------------------
-# Configuration
-# ---------------------------------------------------------------------------
-
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 YOUTUBE_API_KEY = os.environ["YOUTUBE_API_KEY"]
-MODEL_NAME = "gemini-1.5-flash"
+MODEL_NAME = "gemini-2.5-flash"
 
-
-# CrewAI utilise son intégration Gemini directement.
+# Gemini 2.5 Flash est utilisé via l'intégration native de CrewAI.
+# La température n'est volontairement pas fixée pour rester compatible
+# avec les versions récentes de l'API Gemini.
 llm = LLM(
     model=f"gemini/{MODEL_NAME}",
     api_key=GEMINI_API_KEY,
-    temperature=0.7,
 )
 
-
-# ---------------------------------------------------------------------------
-# YouTube Data API
-# ---------------------------------------------------------------------------
 
 def get_top_youtube_videos(
     keyword: str = "comptines éducatives enfants",
     max_results: int = 5,
 ) -> List[Dict[str, str]]:
     """Retourne les 5 vidéos les plus vues correspondant au mot-clé."""
-
     youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
     response = youtube.search().list(
@@ -56,7 +46,6 @@ def get_top_youtube_videos(
         for item in response.get("items", [])
         if item.get("id", {}).get("videoId")
     ]
-
     if not video_ids:
         return []
 
@@ -84,10 +73,6 @@ def get_top_youtube_videos(
     return videos[:max_results]
 
 
-# ---------------------------------------------------------------------------
-# Agents CrewAI
-# ---------------------------------------------------------------------------
-
 detective = Agent(
     role="Détective des tendances YouTube Kids",
     goal=(
@@ -114,14 +99,9 @@ scenariste = Agent(
 )
 
 
-# ---------------------------------------------------------------------------
-# Pipeline principal
-# ---------------------------------------------------------------------------
-
 def main() -> None:
     print("🔎 Recherche YouTube...")
     videos = get_top_youtube_videos()
-
     if not videos:
         raise RuntimeError("Aucune vidéo YouTube trouvée.")
 
