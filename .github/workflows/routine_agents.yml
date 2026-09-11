@@ -3,6 +3,8 @@
 name: Agents IA - YouTube Kids
 
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "0 8 * * *"
   workflow_dispatch:
