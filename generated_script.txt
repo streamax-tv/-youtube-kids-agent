@@ -1,47 +1,49 @@
-TITRE : Milo et la Danse des Formes Magiques ! 🌸✨
-THÈME : Éveil ludo-moteur, reconnaissance des formes géométriques et rythme corporel.
+TITRE : L'Aventure des Contraires : Lourd et Léger avec Kibo !
+THÈME : Éveil sensoriel et apprentissage des contraires (Lourd / Léger)
 DURÉE : 45 secondes
-PERSONNAGES : Milo (un adorable petit koala explorateur avec un sac à dos jaune).
+PERSONNAGES : 
+- **Kibo** : Petit robot rigolo en blocs de bois articulés.
+- **Pipistrelle** : Petite chauve-souris violette en tissu doux avec de grandes oreilles rigolotes.
 
 ---
 
 SCÈNE 1 — 0:00 à 0:07
 IMAGE / PROMPT STABLE DIFFUSION :
-cute friendly baby koala explorer named Milo holding a tiny golden star wand, standing in a colorful enchanted garden filled with sleeping magical plant buds, vibrant pastel colors, 3D Pixar render style, sunny soft lighting, ultra detailed, cheerful atmosphere
+[3D render, cute wooden robot character named Kibo and small purple felt bat named Pipistrelle standing next to a colorful wooden balance scale in a vibrant whimsical garden, sunny bright lighting, Pixar style, highly detailed, 8k --ar 16:9]
 VOIX OFF :
-Coucou les amis ! C'est Milo ! Aujourd'hui, on réveille le jardin magique en bougeant le corps ! Tu es prêt ? C'est parti !
+Coucou les amis ! Aujourd'hui, avec Kibo et Pipistrelle, on découvre les contraires : LOURD et LÉGER ! Tu es prêt ? C'est parti !
 
 SCÈNE 2 — 0:07 à 0:14
 IMAGE / PROMPT STABLE DIFFUSION :
-cute baby koala pointing happily at a glowing pink triangular flower blooming in a magical forest, bright colorful sparkles, 3D Pixar digital art, high contrast, vivid warm colors
+[Close-up, cute wooden robot Kibo lifting a heavy carved wooden rock and putting it on a scale, the scale drops down fast with a splash of colorful sparkles, bright primary colors, cozy lighting, 3D animation style --ar 16:9]
 VOIX OFF :
-Regarde cette fleur ! C'est un **TRIANGLE** ! Tape doucement dans tes mains pour la faire briller : 1... 2... TRIANGLE ! Bravo !
+Regarde ce gros caillou en bois ! Kibo le pose sur la balance... BOUM ! Il descend tout en bas ! C'est... LOURD ! Dis avec moi : LOURD !
 
 SCÈNE 3 — 0:14 à 0:21
 IMAGE / PROMPT STABLE DIFFUSION :
-cute baby koala jumping enthusiastically next to a giant glowing yellow circular round flower, floating musical notes, fairytale garden background, 3D digital animation style, bright daylight
+[Close-up, tiny purple felt bat Pipistrelle gently dropping a glowing pastel feather onto the scale, feather floats smoothly in the air, soft sparkling lighting, whimsical felt texture, 3D render --ar 16:9]
 VOIX OFF :
-Et voici un **CERCLE** tout rond ! Saute deux fois sur place comme un p'tit lapin ! Hop... hop... CERCLE ! Super !
+Et maintenant, Pipistrelle pose une plume toute douce... Elle vole gentiment dans l'air ! C'est... LÉGER ! Dis avec moi : LÉGER !
 
 SCÈNE 4 — 0:21 à 0:30
 IMAGE / PROMPT STABLE DIFFUSION :
-cute baby koala clapping hands quickly beside a shiny blue square-shaped flower blooming with square petals, bright sparkling garden, Pixar 3D art style, colorful light effects
+[Cute wooden robot Kibo stomping feet happily on wooden floor and purple felt bat Pipistrelle gently blowing air with cheeks puffed, musical notes and colorful stars in the background, joyful atmosphere, 3D style --ar 16:9]
 VOIX OFF :
-Ohoh, un **CARRÉ** bleu ! Maintenant, frappe des mains très vite ! Tap-tap-tap-tap-tap... CARRÉ ! Oui, fantastique ! Tu es très fort !
+À toi de jouer ! Tape fort des pieds comme le caillou lourd : TAP, TAP, TAP ! Super ! Maintenant, souffle doucement comme la plume légère... Fffff ! Bravo !
 
 SCÈNE 5 — 0:30 à 0:38
 IMAGE / PROMPT STABLE DIFFUSION :
-wide shot of a magical colorful garden blooming with brightly glowing flowers shaped like triangles, circles and squares, cute koala dancing joyful in the center, rainbow background, vibrant 3D render style
+[A smooth wooden ball rolling down a rainbow bamboo track, triggering colorful chime keys with gentle water drops splashing around, satisfying macro perspective, bright glowing colors, 3D visual --ar 16:9]
 VOIX OFF :
-Regarde, tout le jardin s'éveille ! Triangle, Cercle, Carré ! On danse et on bouge tous ensemble au rythme des formes !
+Regarde la bille magique qui roule ! Elle fait chanter le circuit... DING, DING, PLOP ! Comme c'est satisfaisant !
 
 SCÈNE 6 — 0:38 à 0:45
 IMAGE / PROMPT STABLE DIFFUSION :
-cute baby koala waving directly at the viewer with a big happy smile, holding a colorful geometric balloon in a magical blooming meadow, warm lighting, Pixar quality, high resolution
+[Wooden robot Kibo and purple felt bat Pipistrelle waving happily, jumping with joy, felt confetti falling around them, bright cheerful scene, high quality 3D animation --ar 16:9]
 VOIX OFF :
-Tu as été merveilleux ! Pour rejouer la danse des formes avec moi, retape sur la vidéo ! À très vite les explorateurs !
+Tu as été fantastique ! N'oublie pas de t'abonner pour retrouver Kibo et Pipistrelle dans la prochaine aventure. À bientôt !
 
 ---
 
 CONCLUSION :
-Grâce à l'apprentissage par le mouvement (*Active Micro-Learning*), l'enfant apprend à identifier trois formes géométriques fondamentales (le triangle, le cercle et le carré) tout en développant son rythme et sa motricité globale (taper doucement, sauter, clapper rapidement).
+Grâce à ce court vidéo, l'enfant comprend la notion physique des contraires ("Lourd" et "Léger") par l'observation visuelle, la répétition orale et l'imitation corporelle (taper des pieds / souffler).
