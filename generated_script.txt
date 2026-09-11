@@ -1,0 +1,47 @@
+TITRE : Milo et la Danse des Formes Magiques ! 🌸✨
+THÈME : Éveil ludo-moteur, reconnaissance des formes géométriques et rythme corporel.
+DURÉE : 45 secondes
+PERSONNAGES : Milo (un adorable petit koala explorateur avec un sac à dos jaune).
+
+---
+
+SCÈNE 1 — 0:00 à 0:07
+IMAGE / PROMPT STABLE DIFFUSION :
+cute friendly baby koala explorer named Milo holding a tiny golden star wand, standing in a colorful enchanted garden filled with sleeping magical plant buds, vibrant pastel colors, 3D Pixar render style, sunny soft lighting, ultra detailed, cheerful atmosphere
+VOIX OFF :
+Coucou les amis ! C'est Milo ! Aujourd'hui, on réveille le jardin magique en bougeant le corps ! Tu es prêt ? C'est parti !
+
+SCÈNE 2 — 0:07 à 0:14
+IMAGE / PROMPT STABLE DIFFUSION :
+cute baby koala pointing happily at a glowing pink triangular flower blooming in a magical forest, bright colorful sparkles, 3D Pixar digital art, high contrast, vivid warm colors
+VOIX OFF :
+Regarde cette fleur ! C'est un **TRIANGLE** ! Tape doucement dans tes mains pour la faire briller : 1... 2... TRIANGLE ! Bravo !
+
+SCÈNE 3 — 0:14 à 0:21
+IMAGE / PROMPT STABLE DIFFUSION :
+cute baby koala jumping enthusiastically next to a giant glowing yellow circular round flower, floating musical notes, fairytale garden background, 3D digital animation style, bright daylight
+VOIX OFF :
+Et voici un **CERCLE** tout rond ! Saute deux fois sur place comme un p'tit lapin ! Hop... hop... CERCLE ! Super !
+
+SCÈNE 4 — 0:21 à 0:30
+IMAGE / PROMPT STABLE DIFFUSION :
+cute baby koala clapping hands quickly beside a shiny blue square-shaped flower blooming with square petals, bright sparkling garden, Pixar 3D art style, colorful light effects
+VOIX OFF :
+Ohoh, un **CARRÉ** bleu ! Maintenant, frappe des mains très vite ! Tap-tap-tap-tap-tap... CARRÉ ! Oui, fantastique ! Tu es très fort !
+
+SCÈNE 5 — 0:30 à 0:38
+IMAGE / PROMPT STABLE DIFFUSION :
+wide shot of a magical colorful garden blooming with brightly glowing flowers shaped like triangles, circles and squares, cute koala dancing joyful in the center, rainbow background, vibrant 3D render style
+VOIX OFF :
+Regarde, tout le jardin s'éveille ! Triangle, Cercle, Carré ! On danse et on bouge tous ensemble au rythme des formes !
+
+SCÈNE 6 — 0:38 à 0:45
+IMAGE / PROMPT STABLE DIFFUSION :
+cute baby koala waving directly at the viewer with a big happy smile, holding a colorful geometric balloon in a magical blooming meadow, warm lighting, Pixar quality, high resolution
+VOIX OFF :
+Tu as été merveilleux ! Pour rejouer la danse des formes avec moi, retape sur la vidéo ! À très vite les explorateurs !
+
+---
+
+CONCLUSION :
+Grâce à l'apprentissage par le mouvement (*Active Micro-Learning*), l'enfant apprend à identifier trois formes géométriques fondamentales (le triangle, le cercle et le carré) tout en développant son rythme et sa motricité globale (taper doucement, sauter, clapper rapidement).
