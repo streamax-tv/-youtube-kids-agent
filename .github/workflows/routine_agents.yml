@@ -69,7 +69,9 @@ jobs:
         run: |
           test -s generated_script.txt
           test -s output/youtube_kids_video.mp4
-          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 output/youtube_kids_video.mp4
+          duration=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 output/youtube_kids_video.mp4)
+          echo "⏱️ Durée vidéo: ${duration}s"
+          python -c "d=float('$duration'); assert 44.0 <= d <= 46.0, f'Durée inattendue: {d}s'"
           ls -lh generated_script.txt output/youtube_kids_video.mp4
           echo "✅ Script et vidéo prêts."
 
@@ -97,4 +99,5 @@ jobs:
             exit 0
           fi
           git commit -m "🤖 Génération automatique du script YouTube Kids"
-          git push origin HEAD:${{ github.ref_name }}
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin HEAD:"${{ github.ref_name }}"
