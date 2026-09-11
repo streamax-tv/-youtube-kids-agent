@@ -1,4 +1,4 @@
-# Workflow quotidien : YouTube Kids -> CrewAI -> Gemini -> vidéo -> GitHub
+# Workflow quotidien : YouTube Kids -> CrewAI -> Gemini -> vidéo -> YouTube
 
 name: Agents IA - YouTube Kids
 
@@ -16,6 +16,10 @@ jobs:
   generate-script:
     if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    env:
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
 
     steps:
       - name: 📥 Récupérer le dépôt
@@ -28,11 +32,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-video.txt
 
       - name: 📦 Installer les dépendances
         run: |
           python -m pip install --upgrade pip
-          python -m pip install crewai google-genai google-api-python-client google-auth-httplib2 google-auth-oauthlib edge-tts
+          python -m pip install -r requirements-video.txt
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
@@ -43,7 +49,12 @@ jobs:
         run: |
           test -n "$GEMINI_API_KEY" || (echo "❌ GEMINI_API_KEY manquant" && exit 1)
           test -n "$YOUTUBE_API_KEY" || (echo "❌ YOUTUBE_API_KEY manquant" && exit 1)
-          echo "✅ Les deux Secrets sont configurés."
+          echo "✅ Les secrets IA sont configurés."
+          if [ -n "$YOUTUBE_CLIENT_ID" ] && [ -n "$YOUTUBE_CLIENT_SECRET" ] && [ -n "$YOUTUBE_REFRESH_TOKEN" ]; then
+            echo "✅ YouTube OAuth est configuré : upload automatique activable."
+          else
+            echo "ℹ️ YouTube OAuth n'est pas encore configuré : la vidéo sera seulement produite comme Artifact."
+          fi
 
       - name: 🤖 Générer le script
         env:
@@ -58,6 +69,7 @@ jobs:
         run: |
           test -s generated_script.txt
           test -s output/youtube_kids_video.mp4
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 output/youtube_kids_video.mp4
           ls -lh generated_script.txt output/youtube_kids_video.mp4
           echo "✅ Script et vidéo prêts."
 
@@ -67,6 +79,10 @@ jobs:
           name: youtube-kids-video
           path: output/youtube_kids_video.mp4
           retention-days: 7
+
+      - name: ▶️ Publier automatiquement sur YouTube
+        if: ${{ env.YOUTUBE_CLIENT_ID != '' && env.YOUTUBE_CLIENT_SECRET != '' && env.YOUTUBE_REFRESH_TOKEN != '' }}
+        run: python youtube_upload.py
 
       - name: ⚙️ Configurer Git
         run: |
