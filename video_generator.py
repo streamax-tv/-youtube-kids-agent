@@ -7,8 +7,8 @@ SCRIPT_FILE = Path("generated_script.txt")
 OUT_DIR = Path("output")
 VIDEO_FILE = OUT_DIR / "youtube_kids_video.mp4"
 VOICE = "fr-FR-DeniseNeural"
+SCENE_DURATION = 7.5
 
-# Palette de décors simples et fiables pour GitHub Actions.
 BACKGROUNDS = [
     "0x173B57",
     "0x245B6B",
@@ -67,36 +67,68 @@ def wrap_text(text, width=48):
     return "\n".join(lines)
 
 
+def probe_duration(path):
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "error",
+            "-show_entries", "format=duration",
+            "-of", "default=noprint_wrappers=1:nokey=1",
+            str(path),
+        ],
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    return float(result.stdout.strip())
+
+
+def atempo_chain(speed):
+    # FFmpeg atempo accepts 0.5..2.0 per filter. Split larger speedups safely.
+    filters = []
+    while speed > 2.0:
+        filters.append("atempo=2.0")
+        speed /= 2.0
+    while speed < 0.5:
+        filters.append("atempo=0.5")
+        speed /= 0.5
+    filters.append(f"atempo={speed:.6f}")
+    return ",".join(filters)
+
+
 def make_scene(text, index):
     audio = OUT_DIR / f"voice_{index:02d}.mp3"
     scene = OUT_DIR / f"scene_{index:02d}.mp4"
     text_file = OUT_DIR / f"caption_{index:02d}.txt"
-    asyncio.run(make_audio(text, audio))
 
-    # Utilise textfile plutôt que text= pour éviter les erreurs FFmpeg
-    # provoquées par les apostrophes, deux-points et caractères français.
+    asyncio.run(make_audio(text, audio))
     text_file.write_text(wrap_text(text[:420]), encoding="utf-8")
 
-    bg = BACKGROUNDS[(index - 1) % len(BACKGROUNDS)]
-    duration_hint = 8 if index in (1, 6) else 7
+    audio_duration = probe_duration(audio)
+    # Keep the final video at exactly 6 x 7.5 s = 45 s.
+    # If TTS is longer, speed it up rather than cutting words.
+    speed = max(1.0, audio_duration / SCENE_DURATION)
+    audio_filter = atempo_chain(speed) if speed > 1.01 else "anull"
 
+    bg = BACKGROUNDS[(index - 1) % len(BACKGROUNDS)]
     filter_graph = (
-        f"drawbox=x=55:y=55:w=1170:h=610:color=white@0.10:t=5,"
-        f"drawbox=x=85:y=85:w=1110:h=550:color=black@0.12:t=2,"
+        "drawbox=x=55:y=55:w=1170:h=610:color=white@0.10:t=5,"
+        "drawbox=x=85:y=85:w=1110:h=550:color=black@0.12:t=2,"
         "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:"
-        f"text='LA METEO EN ACTION  •  {index}/6':fontcolor=white@0.92:fontsize=28:"
+        f"text='DÉCOUVRE ET BOUGE  •  {index}/6':fontcolor=white@0.92:fontsize=28:"
         "x=80:y=38,"
         "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:"
         f"textfile='{text_file}':fontcolor=white:fontsize=38:line_spacing=14:"
-        "x=(w-text_w)/2:y=(h-text_h)/2:box=1:boxcolor=black@0.42:boxborderw=34,"
-        "drawbox=x=85:y=h-55:w='(w-170)*t/" + str(duration_hint) + ":h=8:color=white@0.85:t=fill"
+        "x=(w-text_w)/2:y=(h-text_h)/2:box=1:boxcolor=black@0.42:boxborderw=34"
     )
 
     run([
         "ffmpeg", "-y",
         "-f", "lavfi", "-i", f"color=c={bg}:s=1280x720:r=30",
         "-i", str(audio),
-        "-shortest",
+        "-filter_complex", f"[1:a]{audio_filter}[a]",
+        "-map", "0:v:0",
+        "-map", "[a]",
+        "-t", str(SCENE_DURATION),
         "-vf", filter_graph,
         "-c:v", "libx264",
         "-preset", "veryfast",
@@ -134,19 +166,21 @@ def main():
     if not scenes:
         raise SystemExit("Aucune scène trouvée dans le script")
 
+    # The script format targets six scenes / 45 seconds.
+    if len(scenes) != 6:
+        print(f"⚠️ {len(scenes)} scènes détectées; la durée totale sera {len(scenes) * SCENE_DURATION:.1f}s.")
+
     OUT_DIR.mkdir(exist_ok=True)
-    for old in OUT_DIR.glob("scene_*.mp4"):
-        old.unlink()
-    for old in OUT_DIR.glob("voice_*.mp3"):
-        old.unlink()
-    for old in OUT_DIR.glob("caption_*.txt"):
-        old.unlink()
+    for pattern in ("scene_*.mp4", "voice_*.mp3", "caption_*.txt"):
+        for old in OUT_DIR.glob(pattern):
+            old.unlink()
 
     for i, text in enumerate(scenes, 1):
         make_scene(text, i)
 
     concat_scenes(len(scenes))
-    print(f"✅ Vidéo avec voix française créée: {VIDEO_FILE}")
+    final_duration = probe_duration(VIDEO_FILE)
+    print(f"✅ Vidéo avec voix française créée: {VIDEO_FILE} ({final_duration:.1f}s)")
 
 
 if __name__ == "__main__":
