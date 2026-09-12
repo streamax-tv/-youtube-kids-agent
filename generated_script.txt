@@ -1,49 +1,50 @@
-TITRE : L'Aventure des Contraires : Lourd et Léger avec Kibo !
-THÈME : Éveil sensoriel et apprentissage des contraires (Lourd / Léger)
+TITRE : La Danse de la Petite Graine avec Picou !
+THÈME : Éveil sensoriel, motricité globale et découverte du cycle des plantes.
 DURÉE : 45 secondes
-PERSONNAGES : 
-- **Kibo** : Petit robot rigolo en blocs de bois articulés.
-- **Pipistrelle** : Petite chauve-souris violette en tissu doux avec de grandes oreilles rigolotes.
+
+PERSONNAGES :
+- **Picou** : Un petit lutin des bois adorable et rondouillard, taillé dans du bois de chêne clair et lisse. Il porte un petit bonnet en feutrine vert sauge, un gilet en laine jaune moutarde, et possède de grands yeux noirs pétillants avec de petites joues rosées.
+- **Les éléments de la nature** : Des gouttes de pluie translucides comme des billes de verre, un soleil brillant en laine feutrée, des fleurs colorées en pâte à modeler et tissus doux.
 
 ---
 
 SCÈNE 1 — 0:00 à 0:07
 IMAGE / PROMPT STABLE DIFFUSION :
-[3D render, cute wooden robot character named Kibo and small purple felt bat named Pipistrelle standing next to a colorful wooden balance scale in a vibrant whimsical garden, sunny bright lighting, Pixar style, highly detailed, 8k --ar 16:9]
+[A cute tiny woodland sprite character named Picou, made of smooth light oak wood with a sage green felt cap and a cozy yellow woolen vest, sleeping curled up on a soft green moss bed in a sunlit miniature forest. 3D tactile craft animation style, felt and wood textures, macro close-up shot, warm soft golden morning lighting, shallow depth of field, vibrant colors, clean render.]
 VOIX OFF :
-Coucou les amis ! Aujourd'hui, avec Kibo et Pipistrelle, on découvre les contraires : LOURD et LÉGER ! Tu es prêt ? C'est parti !
+Coucou les amis ! Regardez, la petite graine Picou dort encore tout doucement dans la mousse. Chuuut...
 
 SCÈNE 2 — 0:07 à 0:14
 IMAGE / PROMPT STABLE DIFFUSION :
-[Close-up, cute wooden robot Kibo lifting a heavy carved wooden rock and putting it on a scale, the scale drops down fast with a splash of colorful sparkles, bright primary colors, cozy lighting, 3D animation style --ar 16:9]
+[The cute oak wood sprite Picou with green felt cap waking up happily, looking up at shiny translucent glass-like raindrops falling softly around. Miniature forest clearing background, eye-level medium shot, warm cheerful daylight, soft focus background, tactile craft visual style, 3D render.]
 VOIX OFF :
-Regarde ce gros caillou en bois ! Kibo le pose sur la balance... BOUM ! Il descend tout en bas ! C'est... LOURD ! Dis avec moi : LOURD !
+Plic ! Ploc ! La pluie tombe doucement. Fais comme la pluie : tapote tes doigts sur tes cuisses ! Plic, ploc, plic, ploc !
 
 SCÈNE 3 — 0:14 à 0:21
 IMAGE / PROMPT STABLE DIFFUSION :
-[Close-up, tiny purple felt bat Pipistrelle gently dropping a glowing pastel feather onto the scale, feather floats smoothly in the air, soft sparkling lighting, whimsical felt texture, 3D render --ar 16:9]
+[The oak wood sprite Picou standing up tall, reaching its small wooden arms straight up toward a bright glowing sunbeam breaking through the trees. Vibrant yellow lighting, low angle shot, handcrafted wool and polished wood textures, soft depth of field, 3D render.]
 VOIX OFF :
-Et maintenant, Pipistrelle pose une plume toute douce... Elle vole gentiment dans l'air ! C'est... LÉGER ! Dis avec moi : LÉGER !
+Oooh, le soleil brille ! Étire tes bras très haut vers le ciel comme Picou. Grandis-toi ! Plus haut, plus haut !
 
 SCÈNE 4 — 0:21 à 0:30
 IMAGE / PROMPT STABLE DIFFUSION :
-[Cute wooden robot Kibo stomping feet happily on wooden floor and purple felt bat Pipistrelle gently blowing air with cheeks puffed, musical notes and colorful stars in the background, joyful atmosphere, 3D style --ar 16:9]
+[The cute wooden sprite Picou with green felt cap swaying rhythmically from side to side in a gentle breeze, surrounded by swaying colorful felt leaves. Medium dynamic shot, bright warm lighting, shallow depth of field, handcrafted toy animation style, 3D render.]
 VOIX OFF :
-À toi de jouer ! Tape fort des pieds comme le caillou lourd : TAP, TAP, TAP ! Super ! Maintenant, souffle doucement comme la plume légère... Fffff ! Bravo !
+Fuuu ! Le doux vent souffle. Balance ton corps de gauche à droite comme une jolie feuille au vent. Gauche... droite... Bravo !
 
 SCÈNE 5 — 0:30 à 0:38
 IMAGE / PROMPT STABLE DIFFUSION :
-[A smooth wooden ball rolling down a rainbow bamboo track, triggering colorful chime keys with gentle water drops splashing around, satisfying macro perspective, bright glowing colors, 3D visual --ar 16:9]
+[The oak wood sprite Picou opening its hands wide with a huge joyful smile next to a giant blooming orange and yellow felt flower. Close-up shot, cheerful sparkles, bright warm lighting, tactile 3D craft render, soft bokeh background.]
 VOIX OFF :
-Regarde la bille magique qui roule ! Elle fait chanter le circuit... DING, DING, PLOP ! Comme c'est satisfaisant !
+Et HOP ! La fleur s'ouvre ! Ouvre tes mains grand comme de magnifiques pétaux qui éclosent ! 
 
 SCÈNE 6 — 0:38 à 0:45
 IMAGE / PROMPT STABLE DIFFUSION :
-[Wooden robot Kibo and purple felt bat Pipistrelle waving happily, jumping with joy, felt confetti falling around them, bright cheerful scene, high quality 3D animation --ar 16:9]
+[The adorable wooden sprite Picou jumping joyfully and dancing in a colorful sunlit forest surrounded by giant glowing felt blossoms. Wide cheerful shot, vibrant warm natural colors, soft depth of field, high-end 3D toy craft animation.]
 VOIX OFF :
-Tu as été fantastique ! N'oublie pas de t'abonner pour retrouver Kibo et Pipistrelle dans la prochaine aventure. À bientôt !
+Tu as poussé comme une super fleur ! À toi de danser et de sauter maintenant ! On se retrouve très vite !
 
 ---
 
 CONCLUSION :
-Grâce à ce court vidéo, l'enfant comprend la notion physique des contraires ("Lourd" et "Léger") par l'observation visuelle, la répétition orale et l'imitation corporelle (taper des pieds / souffler).
+L'enfant apprend à connecter des sons de la nature à des mouvements corporels (motricité globale), tout en assimilant de manière ludique les besoins d'une plante pour grandir (eau, soleil, vent).
