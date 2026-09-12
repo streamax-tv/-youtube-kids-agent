@@ -1,0 +1,58 @@
+name: Test Pollinations Visuals
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    env:
+      POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
+    steps:
+      - name: 📥 Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: 🖼️ Générer une image IA de test
+        run: |
+          test -n "$POLLINATIONS_API_KEY" || (echo "❌ POLLINATIONS_API_KEY manquant" && exit 1)
+          python - <<'PY'
+          import os
+          import urllib.parse
+          import urllib.request
+
+          prompt = (
+              "Original children's educational 3D animation scene. Kibo is a small funny articulated wooden robot "
+              "made of rounded warm wood blocks with big friendly eyes. Pipistrelle is a tiny cute purple felt bat "
+              "with oversized ears and soft fabric texture. They stand together in a colorful whimsical garden beside "
+              "a wooden balance scale, joyful expressions, polished toy-like materials, cinematic soft lighting, "
+              "high-end original animation look, 16:9, no text, no logos, no existing franchise characters."
+          )
+          url = (
+              "https://gen.pollinations.ai/image/"
+              + urllib.parse.quote(prompt, safe="")
+              + "?model=flux&width=1280&height=720&nologo=true"
+          )
+          request = urllib.request.Request(
+              url,
+              headers={
+                  "Authorization": f"Bearer {os.environ['POLLINATIONS_API_KEY']}",
+                  "User-Agent": "youtube-kids-agent-smoke-test/1.0",
+              },
+          )
+          with urllib.request.urlopen(request, timeout=180) as response:
+              data = response.read()
+          if len(data) < 10000:
+              raise RuntimeError(f"Réponse image trop petite: {len(data)} octets")
+          open("pollinations-test.jpg", "wb").write(data)
+          print(f"✅ Image IA reçue : {len(data)} octets")
+          PY
+
+      - name: 📦 Publier l'image de test
+        uses: actions/upload-artifact@v4
+        with:
+          name: pollinations-smoke-test
+          path: pollinations-test.jpg
+          retention-days: 3
