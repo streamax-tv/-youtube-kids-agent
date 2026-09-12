@@ -1,50 +1,65 @@
-TITRE : La Danse de la Petite Graine avec Picou !
-THÈME : Éveil sensoriel, motricité globale et découverte du cycle des plantes.
-DURÉE : 45 secondes
+TITRE :
+Le Son Magique de Zeph : Le Souffle Doux
+
+THÈME :
+Apprentissage phonétique du son « CH » et politesse douce.
+
+DURÉE :
+45 secondes
 
 PERSONNAGES :
-- **Picou** : Un petit lutin des bois adorable et rondouillard, taillé dans du bois de chêne clair et lisse. Il porte un petit bonnet en feutrine vert sauge, un gilet en laine jaune moutarde, et possède de grands yeux noirs pétillants avec de petites joues rosées.
-- **Les éléments de la nature** : Des gouttes de pluie translucides comme des billes de verre, un soleil brillant en laine feutrée, des fleurs colorées en pâte à modeler et tissus doux.
+- **Zeph** : Un petit esprit du vent, tout rond et très doux, fait de feutrine bleu-lavande pastel. Il a de grands yeux ambrés brillants, des joues rosées, de petites mains en feutrine qui flottent et un sourire espiègle.
+- **Le Petit Oiseau** : Un minuscule oiseau en laine tricotée jaune et corail, dormant paisiblement sur une branche en bois flotté.
 
 ---
 
 SCÈNE 1 — 0:00 à 0:07
 IMAGE / PROMPT STABLE DIFFUSION :
-[A cute tiny woodland sprite character named Picou, made of smooth light oak wood with a sage green felt cap and a cozy yellow woolen vest, sleeping curled up on a soft green moss bed in a sunlit miniature forest. 3D tactile craft animation style, felt and wood textures, macro close-up shot, warm soft golden morning lighting, shallow depth of field, vibrant colors, clean render.]
+3D animation style, macro close-up. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, with bright amber eyes, looks with wonder at a glowing iridescent soap bubble floating softly near a sleeping tiny yellow felt bird on a birch branch. Enchanted pastel forest evening background, warm glowing fairy lights, soft bokeh depth of field, handcrafted toy textures, vibrant colors, cinematic cozy lighting, no text.
 VOIX OFF :
-Coucou les amis ! Regardez, la petite graine Picou dort encore tout doucement dans la mousse. Chuuut...
+Zeph veut attraper la bulle brillante ! Mais chut... le petit oiseau dort juste à côté !
+
+---
 
 SCÈNE 2 — 0:07 à 0:14
 IMAGE / PROMPT STABLE DIFFUSION :
-[The cute oak wood sprite Picou with green felt cap waking up happily, looking up at shiny translucent glass-like raindrops falling softly around. Miniature forest clearing background, eye-level medium shot, warm cheerful daylight, soft focus background, tactile craft visual style, 3D render.]
+3D animation style, medium shot. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, with bright amber eyes and rosy cheeks, gently blowing a soft puff of air. Sparkly pastel air ripples flow toward the glowing soap bubble. Birch branch with a sleeping yellow felt bird nearby. Pastel enchanted forest, tilt-shift depth of field, handcrafted toy aesthetic, warm soft lighting, no text.
 VOIX OFF :
-Plic ! Ploc ! La pluie tombe doucement. Fais comme la pluie : tapote tes doigts sur tes cuisses ! Plic, ploc, plic, ploc !
+Pour t'approcher sans faire de bruit, souffle le son magique avec Zeph : CH... CH... CH...
+
+---
 
 SCÈNE 3 — 0:14 à 0:21
 IMAGE / PROMPT STABLE DIFFUSION :
-[The oak wood sprite Picou standing up tall, reaching its small wooden arms straight up toward a bright glowing sunbeam breaking through the trees. Vibrant yellow lighting, low angle shot, handcrafted wool and polished wood textures, soft depth of field, 3D render.]
+3D animation style, side view. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, floating gracefully through the air toward a glowing iridescent bubble. Floating golden sparkles surround Zeph. High-end 3D claymation feel, vibrant soft pastels, magical warm atmosphere, shallow depth of field, cozy cinematic light, no text.
 VOIX OFF :
-Oooh, le soleil brille ! Étire tes bras très haut vers le ciel comme Picou. Grandis-toi ! Plus haut, plus haut !
+Bravo ! Encore une fois : CH... C'est le son du souffle tout doux !
+
+---
 
 SCÈNE 4 — 0:21 à 0:30
 IMAGE / PROMPT STABLE DIFFUSION :
-[The cute wooden sprite Picou with green felt cap swaying rhythmically from side to side in a gentle breeze, surrounded by swaying colorful felt leaves. Medium dynamic shot, bright warm lighting, shallow depth of field, handcrafted toy animation style, 3D render.]
+3D animation style, close-up shot. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, holding tiny floating felt hands together politely in front of a glowing magical soap bubble. Happy excited facial expression, wide sparkling amber eyes. Soft magical glow, handcrafted velvet texture, pastel warm backdrop, depth of field, no text.
 VOIX OFF :
-Fuuu ! Le doux vent souffle. Balance ton corps de gauche à droite comme une jolie feuille au vent. Gauche... droite... Bravo !
+Zeph est tout près ! Il chuchote très gentiment : "CH... CH-UT... s'il te plaît !"
+
+---
 
 SCÈNE 5 — 0:30 à 0:38
 IMAGE / PROMPT STABLE DIFFUSION :
-[The oak wood sprite Picou opening its hands wide with a huge joyful smile next to a giant blooming orange and yellow felt flower. Close-up shot, cheerful sparkles, bright warm lighting, tactile 3D craft render, soft bokeh background.]
+3D animation style, medium close-up. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, joyfully holding a glowing star nightlight that sparkles softly. The sleeping tiny yellow bird on the birch branch smiles peacefully. Cozy pastel forest setting, warm comforting starlight glow, felt and wood textures, zero text.
 VOIX OFF :
-Et HOP ! La fleur s'ouvre ! Ouvre tes mains grand comme de magnifiques pétaux qui éclosent ! 
+Oh ! La bulle se transforme en une veilleuse étoilée ! Et l'oiseau fait de doux rêves.
+
+---
 
 SCÈNE 6 — 0:38 à 0:45
 IMAGE / PROMPT STABLE DIFFUSION :
-[The adorable wooden sprite Picou jumping joyfully and dancing in a colorful sunlit forest surrounded by giant glowing felt blossoms. Wide cheerful shot, vibrant warm natural colors, soft depth of field, high-end 3D toy craft animation.]
+3D animation style, front close-up shot. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, putting one small felt finger over smiling lips in a gentle shushing gesture, winking happily at the camera. Soft warm twilight background with floating glowing stars, high-end toy animation, cozy atmosphere, no text.
 VOIX OFF :
-Tu as poussé comme une super fleur ! À toi de danser et de sauter maintenant ! On se retrouve très vite !
+Un doux "CH", un mot gentil... et la magie s'allume ! À toi de faire : CH... !
 
 ---
 
 CONCLUSION :
-L'enfant apprend à connecter des sons de la nature à des mouvements corporels (motricité globale), tout en assimilant de manière ludique les besoins d'une plante pour grandir (eau, soleil, vent).
+L'enfant apprend à reconnaître et à prononcer le phonème « CH » en l'associant à un comportement calme, attentif et poli (chuchoter un "s'il te plaît" doux pour ne pas réveiller son entourage).
