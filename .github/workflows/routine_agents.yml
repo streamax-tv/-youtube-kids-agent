@@ -1,25 +1,30 @@
-# Workflow quotidien : YouTube Kids -> CrewAI -> Gemini -> vidéo -> YouTube
+# Workflow quotidien : YouTube Kids -> CrewAI -> Gemini -> AI visuals -> vidéo -> YouTube
 
 name: Agents IA - YouTube Kids
 
 on:
-  push:
-    branches: [main]
   schedule:
     - cron: "0 8 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: youtube-kids-agent
+  cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
   generate-script:
-    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     env:
       YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
       YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
       YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
+      MEDIA_MODE: image
+      POLLINATIONS_IMAGE_MODEL: flux
+      POLLINATIONS_VIDEO_MODEL: veo
 
     steps:
       - name: 📥 Récupérer le dépôt
@@ -50,6 +55,11 @@ jobs:
           test -n "$GEMINI_API_KEY" || (echo "❌ GEMINI_API_KEY manquant" && exit 1)
           test -n "$YOUTUBE_API_KEY" || (echo "❌ YOUTUBE_API_KEY manquant" && exit 1)
           echo "✅ Les secrets IA sont configurés."
+          if [ -n "$POLLINATIONS_API_KEY" ]; then
+            echo "✅ Pollinations configuré : génération visuelle IA activée."
+          else
+            echo "⚠️ POLLINATIONS_API_KEY absent : fallback vidéo graphique utilisé."
+          fi
           if [ -n "$YOUTUBE_CLIENT_ID" ] && [ -n "$YOUTUBE_CLIENT_SECRET" ] && [ -n "$YOUTUBE_REFRESH_TOKEN" ]; then
             echo "✅ YouTube OAuth est configuré : upload automatique activable."
           else
