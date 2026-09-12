@@ -43,7 +43,7 @@ detective = Agent(
 
 scenariste = Agent(
     role="Scénariste de vidéos éducatives pour enfants",
-    goal="Créer un script original de 45 secondes en français.",
+    goal="Créer un script de 45 secondes avec une identité visuelle originale et cohérente.",
     backstory="Tu écris des histoires courtes, joyeuses, simples et éducatives pour les enfants. Tu crées toujours du contenu original.",
     llm=llm, verbose=True,
 )
@@ -87,7 +87,7 @@ PERSONNAGES :
 
 SCÈNE 1 — 0:00 à 0:07
 IMAGE / PROMPT STABLE DIFFUSION :
-[Prompt en anglais : sujet, décor, action, éclairage, style visuel]
+[Prompt en anglais : sujet, décor, action, caméra, éclairage, matériaux et style visuel original]
 VOIX OFF :
 [français]
 
@@ -123,6 +123,11 @@ VOIX OFF :
 
 CONCLUSION :
 [ce que l'enfant apprend]
+
+Règles visuelles importantes : définis une identité visuelle originale et réutilisable. Décris précisément les mêmes personnages
+à chaque scène pour conserver leur apparence. Utilise un rendu d'animation 3D original, haut de gamme, coloré et chaleureux,
+avec matériaux de jouet/artisanat, expressions lisibles, profondeur de champ douce et éclairage cinématographique.
+N'utilise le nom d'aucun studio, réalisateur, franchise ou artiste comme référence de style. Aucun texte dans les images.
 
 Contraintes : français simple, ton joyeux et éducatif, contenu adapté aux enfants, concept entièrement original,
 aucun personnage de franchise connue, aucun texte ou scène copié, prompts en anglais et voix off en français.""",
