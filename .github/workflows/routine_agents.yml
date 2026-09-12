@@ -6,6 +6,24 @@ on:
   schedule:
     - cron: "0 8 * * *"
   workflow_dispatch:
+    inputs:
+      media_mode:
+        description: "Mode visuel : image = plus économique, video = clips IA"
+        required: false
+        type: choice
+        options:
+          - image
+          - video
+        default: image
+      youtube_privacy:
+        description: "Visibilité YouTube si OAuth est configuré"
+        required: false
+        type: choice
+        options:
+          - private
+          - unlisted
+          - public
+        default: private
 
 concurrency:
   group: youtube-kids-agent
@@ -22,9 +40,12 @@ jobs:
       YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
       YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
       POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
-      MEDIA_MODE: image
+      MEDIA_MODE: ${{ inputs.media_mode || 'image' }}
       POLLINATIONS_IMAGE_MODEL: flux
       POLLINATIONS_VIDEO_MODEL: veo
+      GEMINI_MODEL: gemini-3.6-flash
+      TREND_DAYS: "30"
+      YOUTUBE_PRIVACY: ${{ inputs.youtube_privacy || 'private' }}
 
     steps:
       - name: 📥 Récupérer le dépôt
@@ -60,8 +81,10 @@ jobs:
           else
             echo "⚠️ POLLINATIONS_API_KEY absent : fallback vidéo graphique utilisé."
           fi
+          echo "🎨 Mode média : $MEDIA_MODE"
           if [ -n "$YOUTUBE_CLIENT_ID" ] && [ -n "$YOUTUBE_CLIENT_SECRET" ] && [ -n "$YOUTUBE_REFRESH_TOKEN" ]; then
             echo "✅ YouTube OAuth est configuré : upload automatique activable."
+            echo "📺 Confidentialité YouTube : $YOUTUBE_PRIVACY"
           else
             echo "ℹ️ YouTube OAuth n'est pas encore configuré : la vidéo sera seulement produite comme Artifact."
           fi
@@ -85,11 +108,13 @@ jobs:
           ls -lh generated_script.txt output/youtube_kids_video.mp4
           echo "✅ Script et vidéo prêts."
 
-      - name: 📦 Publier la vidéo comme Artifact
+      - name: 📦 Publier le script et la vidéo comme Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: youtube-kids-video
-          path: output/youtube_kids_video.mp4
+          path: |
+            generated_script.txt
+            output/youtube_kids_video.mp4
           retention-days: 7
 
       - name: ▶️ Publier automatiquement sur YouTube
