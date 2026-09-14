@@ -1,65 +1,55 @@
 TITRE :
-Le Son Magique de Zeph : Le Souffle Doux
+L'Aventure du Son [TR] avec Pico !
 
 THÈME :
-Apprentissage phonétique du son « CH » et politesse douce.
+Phonétique ludique et conscience phonologique (Le son [TR])
 
 DURÉE :
 45 secondes
 
 PERSONNAGES :
-- **Zeph** : Un petit esprit du vent, tout rond et très doux, fait de feutrine bleu-lavande pastel. Il a de grands yeux ambrés brillants, des joues rosées, de petites mains en feutrine qui flottent et un sourire espiègle.
-- **Le Petit Oiseau** : Un minuscule oiseau en laine tricotée jaune et corail, dormant paisiblement sur une branche en bois flotté.
+- **Pico** : Une petite loupe vivante en plastique jaune très lisse et brillant, dotée de grands yeux noirs expressifs et pétillants, d'un sourire joyeux, et portant un casque audio orange rembourré fixé sur le dessus de son cadre.
+- **Le Sac Magique** : Un sac à dos en tissu feutré bleu-vert (turquoise), tout doux, avec de gros boutons en bois chaleureux.
 
 ---
 
 SCÈNE 1 — 0:00 à 0:07
 IMAGE / PROMPT STABLE DIFFUSION :
-3D animation style, macro close-up. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, with bright amber eyes, looks with wonder at a glowing iridescent soap bubble floating softly near a sleeping tiny yellow felt bird on a birch branch. Enchanted pastel forest evening background, warm glowing fairy lights, soft bokeh depth of field, handcrafted toy textures, vibrant colors, cinematic cozy lighting, no text.
+A cute 3D rendered character named Pico, a cheerful bright yellow smooth plastic magnifying glass with big glossy expressive eyes, a happy mouth, and orange padded headphone ears on top. Pico is bouncing joyfully next to an open teal felt fabric backpack with soft tactile textures. Vibrant warm pastel playroom background, cinematic soft studio lighting, shallow depth of field, cozy colorful 3D toy style, crisp detail, high quality render, no text.
 VOIX OFF :
-Zeph veut attraper la bulle brillante ! Mais chut... le petit oiseau dort juste à côté !
-
----
+Hop ! Bienvenue ! Aujourd’hui, avec Pico, on range dans notre sac magique QUE les objets qui font le son [TR] ! Tu es prêt ? C'est parti !
 
 SCÈNE 2 — 0:07 à 0:14
 IMAGE / PROMPT STABLE DIFFUSION :
-3D animation style, medium shot. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, with bright amber eyes and rosy cheeks, gently blowing a soft puff of air. Sparkly pastel air ripples flow toward the glowing soap bubble. Birch branch with a sleeping yellow felt bird nearby. Pastel enchanted forest, tilt-shift depth of field, handcrafted toy aesthetic, warm soft lighting, no text.
+The same character Pico, a bright yellow plastic magnifying glass with orange headphone ears, holding a cute colorful fabric pencil case that is flying with motion sparkles toward the open teal felt backpack. Warm pastel nursery room setting, high-end 3D clay and polished toy aesthetic, soft cinematic lighting, bokeh background, macro lens depth of field, vibrant colors, no text.
 VOIX OFF :
-Pour t'approcher sans faire de bruit, souffle le son magique avec Zeph : CH... CH... CH...
-
----
+Regarde ! Une TR-ousse ! Écoute bien... TRRRR-ousse ! On entend le son [TR] ? Oui ! Allez, hop, dans le sac !
 
 SCÈNE 3 — 0:14 à 0:21
 IMAGE / PROMPT STABLE DIFFUSION :
-3D animation style, side view. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, floating gracefully through the air toward a glowing iridescent bubble. Floating golden sparkles surround Zeph. High-end 3D claymation feel, vibrant soft pastels, magical warm atmosphere, shallow depth of field, cozy cinematic light, no text.
+The same character Pico, a cute yellow magnifying glass with orange headphones, looking thoughtfully. On one side, a bright red smooth balloon floats away; on the other side, a friendly shiny plastic trombone paperclip hops toward the teal fabric backpack. Playful toy aesthetic, high-end 3D animation style, bright soft studio lighting, cozy pastel playroom, shallow depth of field, no text.
 VOIX OFF :
-Bravo ! Encore une fois : CH... C'est le son du souffle tout doux !
-
----
+Un Ballon ? Non, pas de [TR] ! Mais un TR-ombone ? Oui ! TRRR-ombone ! Clic-clac, il sautille dans le sac !
 
 SCÈNE 4 — 0:21 à 0:30
 IMAGE / PROMPT STABLE DIFFUSION :
-3D animation style, close-up shot. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, holding tiny floating felt hands together politely in front of a glowing magical soap bubble. Happy excited facial expression, wide sparkling amber eyes. Soft magical glow, handcrafted velvet texture, pastel warm backdrop, depth of field, no text.
+Close-up of the same yellow magnifying glass character Pico, with its orange headphone ears, curiously examining a miniature bright red and yellow toy tractor floating in mid-air. The toy tractor has smooth plastic and polished wooden textures. Cozy lighting, soft focus background, cute vibrant 3D toy style, dynamic composition, warm atmosphere, no text.
 VOIX OFF :
-Zeph est tout près ! Il chuchote très gentiment : "CH... CH-UT... s'il te plaît !"
-
----
+Et cet objet-là ? C’est un TR-acteur ! Écoute encore... TRRRR-acteur ! Est-ce qu’on entend le son [TR] ? ... Oui, bravo !
 
 SCÈNE 5 — 0:30 à 0:38
 IMAGE / PROMPT STABLE DIFFUSION :
-3D animation style, medium close-up. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, joyfully holding a glowing star nightlight that sparkles softly. The sleeping tiny yellow bird on the birch branch smiles peacefully. Cozy pastel forest setting, warm comforting starlight glow, felt and wood textures, zero text.
+The teal felt backpack is now zipped closed, gently glowing with magical musical sparkles surrounding it. Next to it, the same character Pico, the yellow magnifying glass with orange headphones, is doing a happy dance, raising its hands in victory. Colorful cozy room, high-end 3D toy animation render, warm magical lighting, vibrant colors, shallow depth of field, no text.
 VOIX OFF :
-Oh ! La bulle se transforme en une veilleuse étoilée ! Et l'oiseau fait de doux rêves.
-
----
+Clic-clac ! Trousse, trombone, tracteur ! Bravo, nos trois objets font bien le son [TR] ! Quel super orchestre !
 
 SCÈNE 6 — 0:38 à 0:45
 IMAGE / PROMPT STABLE DIFFUSION :
-3D animation style, front close-up shot. Zeph, a tiny round fluffy cloud-like wind spirit made of light lavender felt, putting one small felt finger over smiling lips in a gentle shushing gesture, winking happily at the camera. Soft warm twilight background with floating glowing stars, high-end toy animation, cozy atmosphere, no text.
+The same yellow magnifying glass character Pico, wearing orange headphones, waving happily directly at the camera with a big cheerful smile. Beside Pico, the teal backpack rests peacefully, and glowing light particles float in the air. Warm inviting playroom setting, high-end 3D clay and resin aesthetic, cozy pastel colors, cinematic soft lighting, no text.
 VOIX OFF :
-Un doux "CH", un mot gentil... et la magie s'allume ! À toi de faire : CH... !
+Mission [TR] réussie ! Et toi, quel objet en [TR] tu vas trouver chez toi aujourd'hui ? Dis-le-moi en commentaire et abonne-toi !
 
 ---
 
 CONCLUSION :
-L'enfant apprend à reconnaître et à prononcer le phonème « CH » en l'associant à un comportement calme, attentif et poli (chuchoter un "s'il te plaît" doux pour ne pas réveiller son entourage).
+L'enfant apprend à identifier et isoler la combinaison de sons [TR] à travers des mots familiers du quotidien (trousse, trombone, tracteur), renforçant ainsi sa conscience phonologique et sa capacité d'écoute active de manière très visuelle et amusante.
