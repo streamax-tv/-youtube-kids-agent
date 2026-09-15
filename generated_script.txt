@@ -1,55 +1,65 @@
-TITRE :
-L'Aventure du Son [TR] avec Pico !
-
-THÈME :
-Phonétique ludique et conscience phonologique (Le son [TR])
-
-DURÉE :
-45 secondes
-
+TITRE : Le Pop-Labo des Sons : Le Mystère du "CH" !
+THÈME : Phonétique ludique et éveil au langage (découverte du son [CH])
+DURÉE : 45 secondes
 PERSONNAGES :
-- **Pico** : Une petite loupe vivante en plastique jaune très lisse et brillant, dotée de grands yeux noirs expressifs et pétillants, d'un sourire joyeux, et portant un casque audio orange rembourré fixé sur le dessus de son cadre.
-- **Le Sac Magique** : Un sac à dos en tissu feutré bleu-vert (turquoise), tout doux, avec de gros boutons en bois chaleureux.
+- **Charly la Loupe** : Un petit robot-loupe amical et curieux. Son corps est une loupe ronde en plastique jaune mat, dotée de deux grands yeux boutons bleu clair ultra-expressifs, de petits engrenages en cuivre brillant sur les côtés, de jambes métalliques articulées en laiton avec des pieds en caoutchouc, et d'un nœud papillon rouge vif en plastique brillant.
+- **Le Chaton Coton** : Un adorable petit chaton blanc aux oreilles roses, fabriqué en laine feutrée toute douce.
 
 ---
 
 SCÈNE 1 — 0:00 à 0:07
 IMAGE / PROMPT STABLE DIFFUSION :
-A cute 3D rendered character named Pico, a cheerful bright yellow smooth plastic magnifying glass with big glossy expressive eyes, a happy mouth, and orange padded headphone ears on top. Pico is bouncing joyfully next to an open teal felt fabric backpack with soft tactile textures. Vibrant warm pastel playroom background, cinematic soft studio lighting, shallow depth of field, cozy colorful 3D toy style, crisp detail, high quality render, no text.
+[3D high-end animation style, tactile claymation and felt craft aesthetic. Front view of a cute round magnifying glass robot named Charly, made of glossy yellow matte plastic, with big expressive bright blue button eyes, shiny copper side gears, brass handle legs, and a red glossy bow tie. Charly is waving happily in a colorful toy laboratory filled with wooden blocks and pastel felt clouds. Soft warm cinematic lighting, shallow depth of field, vibrant colors, 8k render, no text, no letters.]
 VOIX OFF :
-Hop ! Bienvenue ! Aujourd’hui, avec Pico, on range dans notre sac magique QUE les objets qui font le son [TR] ! Tu es prêt ? C'est parti !
+[français]
+Chhh... Écoute bien ! Tu entends ce petit bruit secret ? C'est le son CH !
+
+---
 
 SCÈNE 2 — 0:07 à 0:14
 IMAGE / PROMPT STABLE DIFFUSION :
-The same character Pico, a bright yellow plastic magnifying glass with orange headphone ears, holding a cute colorful fabric pencil case that is flying with motion sparkles toward the open teal felt backpack. Warm pastel nursery room setting, high-end 3D clay and polished toy aesthetic, soft cinematic lighting, bokeh background, macro lens depth of field, vibrant colors, no text.
+[3D high-end animation style, tactile claymation aesthetic. The same cute yellow magnifying glass robot, Charly, with blue button eyes and a red bow tie, putting a tiny brass mechanical finger to his center in a shushing gesture. A glowing, soft purple felt cloud floats gently in front of him. Cozy warm studio lighting, vibrant colors, shallow depth of field, high detail, no text, no letters.]
 VOIX OFF :
-Regarde ! Une TR-ousse ! Écoute bien... TRRRR-ousse ! On entend le son [TR] ? Oui ! Allez, hop, dans le sac !
+[français]
+Pose ton doigt sur tes lèvres et souffle tout doux... CHHH ! Comme un petit train qui s'arrête !
+
+---
 
 SCÈNE 3 — 0:14 à 0:21
 IMAGE / PROMPT STABLE DIFFUSION :
-The same character Pico, a cute yellow magnifying glass with orange headphones, looking thoughtfully. On one side, a bright red smooth balloon floats away; on the other side, a friendly shiny plastic trombone paperclip hops toward the teal fabric backpack. Playful toy aesthetic, high-end 3D animation style, bright soft studio lighting, cozy pastel playroom, shallow depth of field, no text.
+[3D high-end animation style, claymation craft aesthetic. The cute yellow robot Charly with blue button eyes and red bow tie standing curiously behind three colorful handcrafted wooden mystery boxes on a turquoise felt table. The boxes are bright orange, lime green, and magenta. Warm soft lighting, vivid pastel background, depth of field, no text, no letters.]
 VOIX OFF :
-Un Ballon ? Non, pas de [TR] ! Mais un TR-ombone ? Oui ! TRRR-ombone ! Clic-clac, il sautille dans le sac !
+[français]
+Ouvrons nos boîtes magiques ! Quels objets cachés contiennent le son CH ?
+
+---
 
 SCÈNE 4 — 0:21 à 0:30
 IMAGE / PROMPT STABLE DIFFUSION :
-Close-up of the same yellow magnifying glass character Pico, with its orange headphone ears, curiously examining a miniature bright red and yellow toy tractor floating in mid-air. The toy tractor has smooth plastic and polished wooden textures. Cozy lighting, soft focus background, cute vibrant 3D toy style, dynamic composition, warm atmosphere, no text.
+[3D high-end animation style, tactile felt and clay aesthetic. Dynamic scene showing a tiny fluffy white felt kitten and a shiny red handcrafted toy sneaker bouncing excitedly out of wooden boxes. Nearby, the cute yellow robot Charly with blue button eyes jumps with joy. A blue wooden ball rolls away in the background. Bright colorful studio lighting, shallow depth of field, no text, no letters.]
 VOIX OFF :
-Et cet objet-là ? C’est un TR-acteur ! Écoute encore... TRRRR-acteur ! Est-ce qu’on entend le son [TR] ? ... Oui, bravo !
+[français]
+Un CH-aton ? Oui ! Une CH-aussure ? Bravo ! Et un ballon ? Non, pas de CH dans ballon !
+
+---
 
 SCÈNE 5 — 0:30 à 0:38
 IMAGE / PROMPT STABLE DIFFUSION :
-The teal felt backpack is now zipped closed, gently glowing with magical musical sparkles surrounding it. Next to it, the same character Pico, the yellow magnifying glass with orange headphones, is doing a happy dance, raising its hands in victory. Colorful cozy room, high-end 3D toy animation render, warm magical lighting, vibrant colors, shallow depth of field, no text.
+[3D high-end animation style, tactile claymation. The cute yellow robot Charly with blue button eyes and a red bow tie dancing happily side-by-side with a tiny fluffy white felt kitten wearing a single miniature red sneaker on its paw. Golden magic sparkles float around them in a warm colorful playroom. Warm cinematic lighting, soft depth of field, no text, no letters.]
 VOIX OFF :
-Clic-clac ! Trousse, trombone, tracteur ! Bravo, nos trois objets font bien le son [TR] ! Quel super orchestre !
+[français]
+Un chaton en chaussure qui fait : CH, CH, CH ! À toi de faire vibrer le son CH !
+
+---
 
 SCÈNE 6 — 0:38 à 0:45
 IMAGE / PROMPT STABLE DIFFUSION :
-The same yellow magnifying glass character Pico, wearing orange headphones, waving happily directly at the camera with a big cheerful smile. Beside Pico, the teal backpack rests peacefully, and glowing light particles float in the air. Warm inviting playroom setting, high-end 3D clay and resin aesthetic, cozy pastel colors, cinematic soft lighting, no text.
+[3D high-end animation style, handcrafted toy aesthetic. Close-up shot of the cute yellow robot Charly with blue button eyes winking cheerfully, gesturing towards a big shiny red wooden heart button on a turquoise felt surface. Soft ambient lighting, vibrant warm blurred background, extremely cute expression, no text, no letters.]
 VOIX OFF :
-Mission [TR] réussie ! Et toi, quel objet en [TR] tu vas trouver chez toi aujourd'hui ? Dis-le-moi en commentaire et abonne-toi !
+[français]
+Ouvre grand tes oreilles et cherche le son CH partout chez toi ! Abonne-toi vite pour le prochain son magique !
 
 ---
 
 CONCLUSION :
-L'enfant apprend à identifier et isoler la combinaison de sons [TR] à travers des mots familiers du quotidien (trousse, trombone, tracteur), renforçant ainsi sa conscience phonologique et sa capacité d'écoute active de manière très visuelle et amusante.
+L'enfant apprend à identifier le phonème complexe [CH], à le prononcer correctement grâce à un geste d'articulation amusant (le geste du silence/du train), et à discriminer ce son parmi d'autres mots du quotidien (chaton, chaussure vs ballon).
