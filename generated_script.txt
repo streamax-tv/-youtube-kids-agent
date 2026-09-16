@@ -1,65 +1,57 @@
-TITRE : Le Pop-Labo des Sons : Le Mystère du "CH" !
-THÈME : Phonétique ludique et éveil au langage (découverte du son [CH])
+TITRE : La Fabrique des Sons : Le Magique Son CHOU !
+THÈME : Apprentissage phonétique (fusion des sons "CH" et "OU") et reconnaissance de mots.
 DURÉE : 45 secondes
-PERSONNAGES :
-- **Charly la Loupe** : Un petit robot-loupe amical et curieux. Son corps est une loupe ronde en plastique jaune mat, dotée de deux grands yeux boutons bleu clair ultra-expressifs, de petits engrenages en cuivre brillant sur les côtés, de jambes métalliques articulées en laiton avec des pieds en caoutchouc, et d'un nœud papillon rouge vif en plastique brillant.
-- **Le Chaton Coton** : Un adorable petit chaton blanc aux oreilles roses, fabriqué en laine feutrée toute douce.
+PERSONNAGES : Bip-Bop, un petit robot curieux et très attachant, fabriqué en carton recyclé vert menthe et jaune pastel, avec de grands yeux bleus très expressifs, des boutons en bois poli et deux petites antennes orange lumineuses.
 
 ---
 
 SCÈNE 1 — 0:00 à 0:07
 IMAGE / PROMPT STABLE DIFFUSION :
-[3D high-end animation style, tactile claymation and felt craft aesthetic. Front view of a cute round magnifying glass robot named Charly, made of glossy yellow matte plastic, with big expressive bright blue button eyes, shiny copper side gears, brass handle legs, and a red glossy bow tie. Charly is waving happily in a colorful toy laboratory filled with wooden blocks and pastel felt clouds. Soft warm cinematic lighting, shallow depth of field, vibrant colors, 8k render, no text, no letters.]
+Full shot of Bip-Bop, a cute small robot crafted from smooth mint-green and pastel yellow cardboard panels with big glossy sky-blue lens eyes, standing excited in a cozy colorful toy workshop. Bip-Bop pulls a smooth wooden lever on a whimsical workbench filled with wooden gears and soft lights. High-end 3D toy animation, smooth wooden and felt textures, warm cozy studio lighting, soft depth of field, tilt-shift effect, vibrant pastel colors, clean background, no text.
 VOIX OFF :
-[français]
-Chhh... Écoute bien ! Tu entends ce petit bruit secret ? C'est le son CH !
+Oh, coucou les amis ! Bienvenue dans la Fabrique des Sons ! Aujourd'hui, on fabrique un mot magique. Tu viens m'aider ?
 
 ---
 
 SCÈNE 2 — 0:07 à 0:14
 IMAGE / PROMPT STABLE DIFFUSION :
-[3D high-end animation style, tactile claymation aesthetic. The same cute yellow magnifying glass robot, Charly, with blue button eyes and a red bow tie, putting a tiny brass mechanical finger to his center in a shushing gesture. A glowing, soft purple felt cloud floats gently in front of him. Cozy warm studio lighting, vibrant colors, shallow depth of field, high detail, no text, no letters.]
+Medium close-up of Bip-Bop, the small cute mint-green cardboard robot with big blue eyes, floating a soft glowing cyan translucent sphere in his wooden hands. Inside the sphere, a light blue stylized feather glimmers gently. Toy-like workshop background, soft bokeh, warm golden lighting, tactile felt and polished wood textures, joyful expression, clean shot, no text.
 VOIX OFF :
-[français]
-Pose ton doigt sur tes lèvres et souffle tout doux... CHHH ! Comme un petit train qui s'arrête !
+D'abord, voici le tout premier son : « CHHH » ! Comme le vent doux dans les feuilles. Fais-le avec moi : « CHHH » !
 
 ---
 
 SCÈNE 3 — 0:14 à 0:21
 IMAGE / PROMPT STABLE DIFFUSION :
-[3D high-end animation style, claymation craft aesthetic. The cute yellow robot Charly with blue button eyes and red bow tie standing curiously behind three colorful handcrafted wooden mystery boxes on a turquoise felt table. The boxes are bright orange, lime green, and magenta. Warm soft lighting, vivid pastel background, depth of field, no text, no letters.]
+Medium shot of Bip-Bop, the friendly mint-green cardboard robot, bringing two soft glowing translucent spheres together in front of him: one cyan sphere and one warm yellow sphere. The two spheres merge into a single sparkling lime-green glowing sphere with magical light sparkles. Cozy warm workshop background, high-end 3D craft animation style, soft focus, bright friendly atmosphere, no text.
 VOIX OFF :
-[français]
-Ouvrons nos boîtes magiques ! Quels objets cachés contiennent le son CH ?
+Maintenant, ajoutons le son : « OUUU » ! Quand on les rassemble... « CH »... « OUU »... ça fait : CHOU ! Bravo !
 
 ---
 
 SCÈNE 4 — 0:21 à 0:30
 IMAGE / PROMPT STABLE DIFFUSION :
-[3D high-end animation style, tactile felt and clay aesthetic. Dynamic scene showing a tiny fluffy white felt kitten and a shiny red handcrafted toy sneaker bouncing excitedly out of wooden boxes. Nearby, the cute yellow robot Charly with blue button eyes jumps with joy. A blue wooden ball rolls away in the background. Bright colorful studio lighting, shallow depth of field, no text, no letters.]
+Medium shot of Bip-Bop, the cute mint-green cardboard robot with big expressive blue eyes, standing behind his wooden workbench. On the workbench sit three tactile handcrafted toy objects: a cute smooth green cabbage, a striped red sock, and a small baby bottle. Bip-Bop points his wooden hand towards the objects with a curious expression. Cozy workshop, soft rim lighting, tactile felt and wood materials, high-end 3D animation, no text.
 VOIX OFF :
-[français]
-Un CH-aton ? Oui ! Une CH-aussure ? Bravo ! Et un ballon ? Non, pas de CH dans ballon !
+Regarde bien ces objets ! Une chaussette, un biberon et un chou. Quel objet commence par le son CHOU ? Réfléchis bien !
 
 ---
 
 SCÈNE 5 — 0:30 à 0:38
 IMAGE / PROMPT STABLE DIFFUSION :
-[3D high-end animation style, tactile claymation. The cute yellow robot Charly with blue button eyes and a red bow tie dancing happily side-by-side with a tiny fluffy white felt kitten wearing a single miniature red sneaker on its paw. Golden magic sparkles float around them in a warm colorful playroom. Warm cinematic lighting, soft depth of field, no text, no letters.]
+Close-up shot of Bip-Bop, the friendly mint-green cardboard robot with happy glowing blue eyes, joyfully holding up the handcrafted green toy cabbage in victory. Magical golden sparkles float around them in celebration. Soft warm studio lighting, shallow depth of field, detailed smooth cardboard and wood textures, 3D toy style, vibrant and cheerful, no text.
 VOIX OFF :
-[français]
-Un chaton en chaussure qui fait : CH, CH, CH ! À toi de faire vibrer le son CH !
+Oui ! C'est le CHOU ! Gagné ! Tu es un vrai champion des sons !
 
 ---
 
 SCÈNE 6 — 0:38 à 0:45
 IMAGE / PROMPT STABLE DIFFUSION :
-[3D high-end animation style, handcrafted toy aesthetic. Close-up shot of the cute yellow robot Charly with blue button eyes winking cheerfully, gesturing towards a big shiny red wooden heart button on a turquoise felt surface. Soft ambient lighting, vibrant warm blurred background, extremely cute expression, no text, no letters.]
+Full shot of Bip-Bop, the cute mint-green cardboard robot, doing a happy celebratory dance on the workshop table, waving one wooden hand warmly to the camera while holding the green toy cabbage in the other. Colorful paper confetti drops gently, cozy warm lighting, tilt-shift blur, vibrant high-end 3D animation, cheerful atmosphere, no text.
 VOIX OFF :
-[français]
-Ouvre grand tes oreilles et cherche le son CH partout chez toi ! Abonne-toi vite pour le prochain son magique !
+« CH + OU fait CHOU, mon bon chou tout doux ! » Répète avec moi : CHOU ! Abonne-toi vite pour fabriquer d'autres sons avec moi !
 
 ---
 
 CONCLUSION :
-L'enfant apprend à identifier le phonème complexe [CH], à le prononcer correctement grâce à un geste d'articulation amusant (le geste du silence/du train), et à discriminer ce son parmi d'autres mots du quotidien (chaton, chaussure vs ballon).
+L'enfant apprend la fusion syllabique des phonèmes "CH" et "OU" pour former le son et le mot "CHOU", tout en développant sa discrimination auditive et son vocabulaire visuel grâce à une devinette interactive et rythmée.
