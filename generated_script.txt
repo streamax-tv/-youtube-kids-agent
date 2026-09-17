@@ -1,57 +1,76 @@
-TITRE : La Fabrique des Sons : Le Magique Son CHOU !
-THÈME : Apprentissage phonétique (fusion des sons "CH" et "OU") et reconnaissance de mots.
-DURÉE : 45 secondes
-PERSONNAGES : Bip-Bop, un petit robot curieux et très attachant, fabriqué en carton recyclé vert menthe et jaune pastel, avec de grands yeux bleus très expressifs, des boutons en bois poli et deux petites antennes orange lumineuses.
+TITRE :
+Le Chrono-Chef des Sons : Le Mystère du "CR" !
+
+THÈME :
+Phonétique amusante et reconnaissance des sons de la nature (Le son "CR")
+
+DURÉE :
+45 secondes
+
+PERSONNAGES :
+- **Nutty** : Un petit écureuil mignon et potelé en feutrine orange douce et laine tricotée. Il porte une toute petite casquette de détective en feutre jaune et tient une loupe miniature en bois poli. Il a de grands yeux noirs brillants très expressifs et une apparence chaleureuse de jouet fait main.
 
 ---
 
 SCÈNE 1 — 0:00 à 0:07
+
 IMAGE / PROMPT STABLE DIFFUSION :
-Full shot of Bip-Bop, a cute small robot crafted from smooth mint-green and pastel yellow cardboard panels with big glossy sky-blue lens eyes, standing excited in a cozy colorful toy workshop. Bip-Bop pulls a smooth wooden lever on a whimsical workbench filled with wooden gears and soft lights. High-end 3D toy animation, smooth wooden and felt textures, warm cozy studio lighting, soft depth of field, tilt-shift effect, vibrant pastel colors, clean background, no text.
+A cute plush squirrel character named Nutty, made of fuzzy orange felt with a tiny yellow felt detective hat, holding a small polished wooden magnifying glass up to his big glossy black eye with a curious expression. Set in an enchanted forest made of green felt leaves and soft clay acorns. Macro close-up shot, warm morning sunlight filtering through trees, soft bokeh depth of field, high-end 3D animation render, tactile handcrafted materials, bright pastel color palette, no text.
+
 VOIX OFF :
-Oh, coucou les amis ! Bienvenue dans la Fabrique des Sons ! Aujourd'hui, on fabrique un mot magique. Tu viens m'aider ?
+« Ouvre bien tes oreilles, détective ! Écoute ce bruit bizarre dans la forêt... *CRAC ! CRAC !* Mais qui fait ça ? »
 
 ---
 
 SCÈNE 2 — 0:07 à 0:14
+
 IMAGE / PROMPT STABLE DIFFUSION :
-Medium close-up of Bip-Bop, the small cute mint-green cardboard robot with big blue eyes, floating a soft glowing cyan translucent sphere in his wooden hands. Inside the sphere, a light blue stylized feather glimmers gently. Toy-like workshop background, soft bokeh, warm golden lighting, tactile felt and polished wood textures, joyful expression, clean shot, no text.
+The plush orange felt squirrel character, Nutty, wearing his tiny yellow felt detective hat, cupping one paw to his ear with a joyful, surprised smile. Standing on a vibrant forest floor made of soft mossy green velvet. Dynamic low-angle medium shot, glowing sunlight highlighting the fuzzy felt textures, high-end 3D animation render, cozy warm color aesthetic, soft depth of field, no text.
+
 VOIX OFF :
-D'abord, voici le tout premier son : « CHHH » ! Comme le vent doux dans les feuilles. Fais-le avec moi : « CHHH » !
+« C'est le son *CRRR* ! Pour le fabriquer, c'est très facile : fais le son *C* puis le son *R*... *CRRR* ! Répète avec moi : *CRRR* ! »
 
 ---
 
 SCÈNE 3 — 0:14 à 0:21
+
 IMAGE / PROMPT STABLE DIFFUSION :
-Medium shot of Bip-Bop, the friendly mint-green cardboard robot, bringing two soft glowing translucent spheres together in front of him: one cyan sphere and one warm yellow sphere. The two spheres merge into a single sparkling lime-green glowing sphere with magical light sparkles. Cozy warm workshop background, high-end 3D craft animation style, soft focus, bright friendly atmosphere, no text.
+The plush orange felt squirrel character, Nutty, happily clapping his tiny felt paws together, jumping with joy on a smooth wooden tree stump surrounded by colorful clay mushrooms. Medium shot, joyful and energetic expression, bright rim lighting, high-end tactile 3D animation render, handcrafted toy aesthetic, soft background blur, no text.
+
 VOIX OFF :
-Maintenant, ajoutons le son : « OUUU » ! Quand on les rassemble... « CH »... « OUU »... ça fait : CHOU ! Bravo !
+« Bravo ! Maintenant, frappe dans tes mains en faisant le bruit de la branche qui casse : *CRAC ! CRAC !* »
 
 ---
 
 SCÈNE 4 — 0:21 à 0:30
+
 IMAGE / PROMPT STABLE DIFFUSION :
-Medium shot of Bip-Bop, the cute mint-green cardboard robot with big expressive blue eyes, standing behind his wooden workbench. On the workbench sit three tactile handcrafted toy objects: a cute smooth green cabbage, a striped red sock, and a small baby bottle. Bip-Bop points his wooden hand towards the objects with a curious expression. Cozy workshop, soft rim lighting, tactile felt and wood materials, high-end 3D animation, no text.
+The plush orange felt squirrel character, Nutty, enthusiastically croaking open a large glossy hazelnut made of smooth polished wood, sitting on a mossy branch with a happy smile. Eye-level medium close-up shot, warm golden lighting, cinematic depth of field, high-end 3D render style with rich felt and wood textures, no text.
+
 VOIX OFF :
-Regarde bien ces objets ! Une chaussette, un biberon et un chou. Quel objet commence par le son CHOU ? Réfléchis bien !
+« Regarde ! C'est Nutty l'écureuil qui croque une grosse noisette ! La noisette *CRAQUE* sous ses dents ! Miam ! »
 
 ---
 
 SCÈNE 5 — 0:30 à 0:38
+
 IMAGE / PROMPT STABLE DIFFUSION :
-Close-up shot of Bip-Bop, the friendly mint-green cardboard robot with happy glowing blue eyes, joyfully holding up the handcrafted green toy cabbage in victory. Magical golden sparkles float around them in celebration. Soft warm studio lighting, shallow depth of field, detailed smooth cardboard and wood textures, 3D toy style, vibrant and cheerful, no text.
+The plush orange felt squirrel character, Nutty, standing inquisitively between a small green toad made of smooth clay and a fluffy camel toy made of brown wool. Nutty points enthusiastically toward the toad with a playful smile. Medium shot, bright daylight, cheerful atmosphere, high-end 3D handcrafted toy render, soft background depth of field, no text.
+
 VOIX OFF :
-Oui ! C'est le CHOU ! Gagné ! Tu es un vrai champion des sons !
+« À toi de jouer ! Quel mot commence aussi par le son *CR* ? Le *CRAPAUD*... ou le *CHAMEAU* ? Dis-le vite ! »
 
 ---
 
 SCÈNE 6 — 0:38 à 0:45
+
 IMAGE / PROMPT STABLE DIFFUSION :
-Full shot of Bip-Bop, the cute mint-green cardboard robot, doing a happy celebratory dance on the workshop table, waving one wooden hand warmly to the camera while holding the green toy cabbage in the other. Colorful paper confetti drops gently, cozy warm lighting, tilt-shift blur, vibrant high-end 3D animation, cheerful atmosphere, no text.
+The plush orange felt squirrel character, Nutty, giving a cheerful thumbs-up and winking happily at the camera, sitting beside a giant cute wooden timer, surrounded by colorful felt confetti floating in the air. High angle close-up shot, vibrant magical lighting, high-end 3D render, felt and craft materials, soft dreamy bokeh, no text.
+
 VOIX OFF :
-« CH + OU fait CHOU, mon bon chou tout doux ! » Répète avec moi : CHOU ! Abonne-toi vite pour fabriquer d'autres sons avec moi !
+« C'était le *CRAPAUD* ! Gagné ! Tu es un super détective des sons ! À très vite pour un nouveau mystère ! »
 
 ---
 
 CONCLUSION :
-L'enfant apprend la fusion syllabique des phonèmes "CH" et "OU" pour former le son et le mot "CHOU", tout en développant sa discrimination auditive et son vocabulaire visuel grâce à une devinette interactive et rythmée.
+L'enfant apprend à identifier le son phonétique complexe « CR », à le reproduire vocalement et physiquement par le jeu, et à le reconnaître au début d'un mot familier (Crapaud vs Chameau).
